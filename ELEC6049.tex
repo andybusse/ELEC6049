@@ -9,8 +9,8 @@
 % Reformats \section to ~23pt, all caps, ragged right (left justified) (Title Text)
 % Reformats \subsection to bold, all caps
 % Reformats \subsubsection to italics
-\titleformat{\section}{\raggedright\Huge\uppercase}{}{0em}{}
-\titleformat{\subsection}{\bfseries\uppercase}{}{0em}{}
+\titleformat{\section}{\raggedright\Huge\MakeUppercase}{}{0em}{}
+\titleformat{\subsection}{\bfseries\MakeUppercase}{}{0em}{}
 \titleformat{\subsubsection}{\itshape}{}{0em}{}
 
 % Insert author names here
@@ -29,7 +29,7 @@
 \section{\reportname}
 \large{By \authornames}
 \\
-Report Date: \today
+\large{Report Date: \today}
 \subsection{ABSTRACT}
 
 \subsubsection{Your Face}
